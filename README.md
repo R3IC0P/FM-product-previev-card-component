@@ -23,14 +23,18 @@ Users should be able to:
 
 ### Screenshot
 
+-    DESKTOP
+
 ![](./screenshot-desktop.jpg)
+
+-   MOBILE
+
 ![](./screenshot-mobile.jpg)
 
 ### Links
 
 -   Solution URL: [GitHub Repository](https://github.com/R3IC0P/FM-product-previev-card-component)
-<!-- TODO: ADD LIVE PREVIEW LINK -->
--   Live Site URL: [Live Preview](https://your-live-site-url.com)
+-   Live Site URL: [Live Preview](https://r3ic0p.github.io/FM-product-previev-card-component/)
 
 ## My process
 
