@@ -21,7 +21,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vmin;
+    min-height: 100vh;
     padding: 1rem;
     font-family: "Montserrat";
     font-size: 14px;
@@ -39,15 +39,15 @@ body {
     overflow: hidden;
 }
 
-.card-img {
+.card__img {
     width: 100%;
 }
 
-.card-img.desktop {
+.card__img--desktop {
     display: none;
 }
 
-.card-details {
+.card__details {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,45 +55,45 @@ body {
     padding: 1.5rem;
 }
 
-.card .item-type {
+.card__item-type {
     font-size: 0.8rem;
     letter-spacing: 0.25rem;
     color: var(--Dark-grayish-blue);
 }
 
-.card-title {
+.card__title {
     font-size: 2rem;
     font-family: "Fraunces";
     font-weight: 700;
     color: var(--Very-dark-blue);
 }
 
-.card-description {
+.card__description {
     line-height: 1.5rem;
     font-size: 1rem;
     color: var(--Dark-grayish-blue);
 }
 
-.card .price-section {
+.card__price-group {
     display: flex;
     align-items: center;
     gap: 1rem;
     padding: 1rem 0;
 }
 
-.card .price-section .current-price {
+.card__current-price {
     font-family: "Fraunces";
     font-size: 2rem;
     color: var(--Dark-cyan);
 }
 
-.card .price-section .old-price {
+.card__old-price {
     font-size: 0.8rem;
     text-decoration: line-through;
     color: var(--Dark-grayish-blue);
 }
 
-.card .add-to-cart-btn {
+.card__btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,12 +107,12 @@ body {
     cursor: pointer;
 }
 
-.card .add-to-cart-btn:hover,
-.card .add-to-cart-btn:focus {
+.card__btn:hover,
+.card__btn:focus {
     background-color: var(--Very-dark-cyan);
 }
 
-.card .btn-text {
+.card__btn-text {
     font-weight: 700;
 }
 
@@ -121,6 +121,7 @@ footer {
     font-size: 11px;
     text-align: center;
 }
+
 footer a {
     color: hsl(228, 45%, 44%);
 }
@@ -134,11 +135,11 @@ footer a {
         width: 40rem;
     }
 
-    .card-img.mobile {
+    .card__img--mobile {
         display: none;
     }
 
-    .card-img.desktop {
+    .card__img--desktop {
         display: block;
     }
 }
